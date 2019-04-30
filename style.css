@@ -52,37 +52,72 @@ table, th, td {
     transform: translate(-50%, -50%);
     font-size: 325%
 }    
-/* .places {
+ .places {
 display: block;
 float: left;
 padding: 5px;
 }
-.place{
-    float: left;
-    display: block;
-    width:33%;
-}
-.place ul{
-    float: left;
-    display: block;
-    width: 40%;
-}
-.place img{
-    float: right;
-    display: block;
-} */
 
-@media screen and (max-width:600px) {
-    div.row {
+
+@media screen and (max-width:499px) {
+    /*div.row {
         width: 36%;
         background-color: lightblue;
+    }*/
+    img{
+        vertical-align: center; 
+    }
+    .place{
+        float: left;
+        display: block;
+        width: 100%;
+    }
+    .place img{
+        float: right;
+        display: block;
+        margin-top: 100px;
+    } 
+    .place ul{
+        float: left;
+        display: block;
+        width: 40%;
+    }
+    .midPlace img{
+        float: left;
+        display: block;
+        margin-top: 100px;
+    }
+    .midPlace ul{
+        float: right;
+        display: block;
+        width: 40%;
     }
 }
 
 @media screen and (min-width:500px) {
-    div.row {
-        display: flex;
-        background-color: lightgreen;
+    .place{
+        float: left;
+        display: block;
+        width:30%;
+    }
+    .place img{
+        float: right;
+        display: block;
+    } 
+    .place ul{
+        float: left;
+        display: block;
+        width: 40%;
+    }
+    .midPlace img{
+        float: right;
+        display: block;
+        margin-top: 100px;
+    }
+    .midPlace ul{
+        float: left;
+        display: block;
+        width: 40%;
     }
 }
 
@@ -121,4 +156,8 @@ div .column {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 125%
 
+}
+.clearfix{
+    overflow: auto;
+    zoom: 1;
 }
