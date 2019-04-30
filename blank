@@ -1,0 +1,36 @@
+        <h2> 2. Castle of Goodhope </h2>
+            
+
+                    <p style=" float: left">
+                            <img src="castle.jpg" class="imgSize" style="float: right">
+            <li>was built by the Dutch East India Company between 1666 and 1679</li>
+            <li>is the oldest colonial building in South Africa</li>
+            <li>It replaced an older fort called the Fort de Goede Hoop which was constructed from clay
+                and timber and built by Jan van Riebeeck upon his arrival at the Cape of Good Hope in
+                1652</li>
+            </p>
+        </div>
+        <div class="col-4 list ">
+            <h2> 3. Long Street </h2>
+            <img src="LongMe.jpg" class="imgSize">
+
+            <ul>
+                <li>is a major street located in the City Bowl section of Cape Town, South Africa</li>
+                <li>famous as a bohemian hang out and the street is lined with many book stores, various
+                    ethnic restaurants and bars</li>
+                <li>Long Street exhibits a diversified culture and attracts tourists from all over the
+                    world</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2> 1. Parliment of RSA </h2>
+              
+
+                
+                        <img src="ParlimentMe.jpg" class="imgSize">
+                        <ul class="histcontainer"></ul>
+                    <li>is known as a place of making laws that will improve our lives</li>
+                    <li>discussing and debating government policy </li>
+                    <li>approving the budgets of government departments</li>
+                </ul>

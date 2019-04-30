@@ -2,12 +2,20 @@ body {
     /* you can use a more complete font-family from VSCode as well */
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: lightblue;
+    width: 90%;
 }
 
 .header {
     background-color: lightblue;
     padding: 0em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    float: right;
+
 }
 
 .main {
@@ -66,7 +74,7 @@ padding: 5px;
 
 @media screen and (max-width:600px) {
     div.row {
-        display: inline;
+        width: 36%;
         background-color: lightblue;
     }
 }
@@ -79,17 +87,28 @@ padding: 5px;
 }
 
 .column {
-    max-width: 33.33%;
+    max-width: 30%;
+    margin: 5%;
 }
 
 .column img {
+    max-width: 100%;
+    height: auto;
     float: right;
+    margin: 0 0 10px 0;
+}
+
+div .column {
+     width: 30%;
+     float: left;
+     margin-right: 10px; 
 }
 
 .imgSize{
-    max-width:200px ;
-    height:150px;
+    max-width:150px ;
+    height:100px;
 }
+
 .section1 img {
     float: left;
     margin-right: 2em;
