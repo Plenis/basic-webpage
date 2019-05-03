@@ -3,18 +3,20 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: lightblue;
     width: 90%;
+    margin: 1em;
 }
 
 .header {
     background-color: lightblue;
     padding: 0em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
 }
 
-header img {
+.header img {
     max-width: 100%;
     height: auto;
-    float: right;
+    float: left;
 
 }
 
@@ -43,15 +45,8 @@ table, th, td {
     position: relative;
     text-align: center;
     color: whitesmoke;
-} 
+   } 
 
-.gif {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 325%
-}    
  .places {
 display: block;
 float: left;
@@ -66,28 +61,8 @@ padding: 5px;
     .place{
         float: left;
         display: block;
-        width: 100%;
     }
-    .place img{
-        float: right;
-        display: block;
-        margin-top: 100px;
-    } 
-    .place ul{
-        float: left;
-        display: block;
-        width: 40%;
-    }
-    .midPlace img{
-        float: left;
-        display: block;
-        margin-top: 100px;
-    }
-    .midPlace ul{
-        float: right;
-        display: block;
-        width: 40%;
-    }
+   
 }
 
 @media screen and (min-width:500px) {
@@ -96,38 +71,18 @@ padding: 5px;
         display: block;
         width:30%;
     }
-    .place img{
-        float: right;
-        display: block;
-    } 
-    .place ul{
-        float: left;
-        display: block;
-        width: 40%;
-    }
-    .midPlace img{
-        float: right;
-        display: block;
-        margin-top: 100px;
-    }
-    .midPlace ul{
-        float: left;
-        display: block;
-        width: 40%;
-    }
+   
 }
 
+.place img{
+    float: right;
+} 
 .column {
     max-width: 30%;
     margin: 5%;
 }
 
-.column img {
-    max-width: 100%;
-    height: auto;
-    float: right;
-    margin: 0 0 10px 0;
-}
+
 
 div .column {
      width: 30%;
@@ -138,6 +93,7 @@ div .column {
 .imgSize{
     max-width:150px ;
     height:100px;
+    margin: 0.5em;
 }
 
 .section1 img {
@@ -157,3 +113,4 @@ div .column {
     overflow: auto;
     zoom: 1;
 }
+
