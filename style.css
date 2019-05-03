@@ -10,14 +10,13 @@ body {
     background-color: lightblue;
     padding: 0em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 30%;
+    /* width: 100%; */
 }
 
 .header img {
     max-width: 100%;
     height: auto;
-    float: left;
-
+   
 }
 
 .main {
